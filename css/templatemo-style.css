@@ -8,7 +8,8 @@ http://www.templatemo.com/tm-446-boxer
 
 body {
     background: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    /* font-family: 'Reggae One', cursive; */
     font-weight: 300;
     position: relative;
     width: 100%;
@@ -214,23 +215,43 @@ img {
 
 /* end home */
 
-/* start divider */
-#divider {
+/* start about */
+#about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#about h2 {
+    padding-bottom: 20px;
+}
+
+#about .btn {
+    border-radius: 0px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px 40px 10px 40px;
+}
+
+/* end about */
+
+
+/* start three-details */
+#three-details {
     text-align: center;
     padding-top: 80px;
     padding-bottom: 80px;
 }
 
-#divider .fa {
+#three-details .fa {
     color: #28a7e9;
     font-size: 60px;
 }
 
-#divider h3 {
+#three-details h3 {
     font-size: 20px;
 }
 
-/* end divider */
+/* end three-details */
 
 /* start feature */
 #feature {
@@ -352,25 +373,6 @@ img {
 
 /* end pricing */
 
-/* start download */
-#download {
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
-
-#download h2 {
-    padding-bottom: 20px;
-}
-
-#download .btn {
-    border-radius: 0px;
-    font-weight: bold;
-    margin-top: 20px;
-    padding: 10px 40px 10px 40px;
-}
-
-/* end download */
-
 /* start contact */
 #contact {
     background: url('../images/office-g74f6897a8_1920.jpg') no-repeat;
@@ -379,7 +381,11 @@ img {
 }
 
 #contact h2 {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+#contact .contact-description {
+    margin-bottom: 30px;
 }
 
 #contact address {
@@ -412,7 +418,7 @@ img {
     margin-bottom: 20px;
 }
 
-#contact input {
+.form-three {
     height: 50px;
 }
 
@@ -426,6 +432,21 @@ img {
 #contact input[type="submit"]:hover {
     background: #107DB6;
 }
+
+.checkbox {
+    margin: 0px;
+
+}
+
+.agreement {
+    vertical-align: middle;
+    padding-left: 35px;
+    width: auto;
+}
+
+
+
+
 
 /* end contact */
 
