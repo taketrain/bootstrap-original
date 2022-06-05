@@ -270,26 +270,32 @@
 										placeholder="お名前">
 								</div>
 								<div style="margin-top: 15px;" class="col-md-6 input_4">
-									<input type="email" name="e-mail" required class="form-control form-three"
+									<input type="email" name="email" required class="form-control form-three"
 										placeholder="メールアドレス">
 								</div>
-								<div class="col-md-12 input_4">
-									<input type="text" name="title" required class="form-control form-three"
+								<div class="col-md-6 input_4">
+									<input type="text" name="subject" required class="form-control form-three"
 										placeholder="タイトル">
 								</div>
+
+								<div class="col-md-6 input_4">
+									<input type="text" name="phone" required class="form-control form-three"
+										placeholder="電話番号">
+								</div>
+
 								<div class="col-md-12 input_4">
-									<textarea required class="form-control" name="sentence" placeholder="お問い合わせ内容"
+									<textarea required class="form-control" name="message" placeholder="お問い合わせ内容"
 										rows="4"></textarea>
 								</div>
 								<div style="margin-bottom: 20px;" class="col-md-12">
 									<p style="margin-bottom: 0px;">お申し込みプラン<br>
-										<input type="radio" name="q1" value="BASIC PLAN"> BASIC PLAN
-										<input type="radio" name="q1" value="BUSINESS PLAN"> BUSINESS PLAN
-										<input type="radio" name="q1" value="PRO PLAN"> PRO PLAN
+										<input type="radio" name="$plan" value="BASIC PLAN"> BASIC PLAN
+										<input type="radio" name="$plan" value="BUSINESS PLAN"> BUSINESS PLAN
+										<input type="radio" name="$plan" value="PRO PLAN"> PRO PLAN
 									</p>
 								</div>
 								<div style="margin-bottom: 20px;" class="col-md-12 agreement">
-									<span class="checkbox"><input type="checkbox" required name="privacy-agreement"
+									<span class="checkbox"><input type="checkbox" required name="$privacy-agreement"
 											value="agreement">
 										プライバシーポリシーに同意する。</span>
 								</div>
